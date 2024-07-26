@@ -8,7 +8,7 @@ export default function Produto() {
         <div className="pt-20"></div>
 
         <div className="bg-gray text-white flex justify-center items-center px-28 py-10">
-            <h1 className="text-5xl font-sans font-extrabold text-center">Sobre o Produto</h1>
+            <h1 className="text-5xl font-sans font-bold text-center">Sobre o Produto</h1>
         </div>
 
         <div className="bg-offwhite p-10 text-center flex flex-col text-lg">

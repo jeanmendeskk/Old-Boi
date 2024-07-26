@@ -1,8 +1,8 @@
-import Home from "./components/Home.jsx"
+import Sobre from "./components/Sobre.jsx"
 
 function App() {
   return (
-    <Home />
+    <Sobre />
   )
 }
 
