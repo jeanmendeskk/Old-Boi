@@ -1,3 +1,5 @@
+import Menu from './Menu.jsx'
+
 export default function Home() {
   return (
     <section className=""> 
@@ -5,7 +7,9 @@ export default function Home() {
             <a href=""><img src="/logo-site.jpg" alt="Imagem de um boi feito por listras" className="w-20"/></a>
         </div>
 
-        <div className="pt-20"></div>
+        <button><img src="/Menu.svg" alt="ícone de menu" className="fixed ms-5" /></button>
+
+        <div className="pt-12"></div>
 
         <div className="bg-[url('/carne-fundo.jpg')] bg-cover bg-center h-56 flex justify-center items-center">
           <h1 className="font-porter text-6xl text-center">Dry Ager</h1>

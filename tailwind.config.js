@@ -10,7 +10,8 @@ export default {
       'gray': '#1C1D1F',
       'white': '#fff',
       'green': '#127E00',
-      'blue': '#003F79'
+      'blue': '#003F79',
+      'offwhite': '#D9D9D9'
     },
     fontFamily: {
       'porter': 'Porter Sans Block',
