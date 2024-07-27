@@ -1,11 +1,25 @@
 export default function Produto() {
   return (
     <section>
+        <div>
+          <section id="special" className="flex flex-col items-start bg-black text-white h-lvh w-10/12 p-8 gap-y-4 z-10 fixed hidden">
+            <button onClick={hideMenu}>x</button>
+            <hr />
+            <a href="/"><h3>Inicio</h3></a>
+            <a href="/Produto"><h3>Produto</h3></a>
+            <a href="/Materiais"><h3>Materiais</h3></a>
+            <a href="/Referencias"><h3>Referências</h3></a>
+            <a href="/Sobre"><h3>Sobre nós</h3></a>
+          </section>    
+        </div>
+
         <div className="w-full fixed bg-black flex justify-center items-center mb-24">
             <a href=""><img src="/logo-site.jpg" alt="Imagem de um boi feito por listras" className="w-20"/></a>
         </div>
+
+        <button onClick={showMenu}><img src="/Menu.svg" alt="ícone de menu" className="fixed ms-5" /></button>
         
-        <div className="pt-20"></div>
+        <div className="pt-14"></div>
 
         <div className="bg-gray text-white flex justify-center items-center px-28 py-10">
             <h1 className="text-5xl font-sans font-bold text-center">Sobre o Produto</h1>
@@ -27,3 +41,11 @@ export default function Produto() {
     </section>
   )
 }
+
+function showMenu() {
+    document.getElementById('special').classList.remove("hidden")
+  }
+  
+  function hideMenu() {
+    document.getElementById('special').classList.add("hidden")
+  }

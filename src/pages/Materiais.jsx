@@ -1,15 +1,27 @@
 export default function Materiais() {
   return (
     <section>
+        <div>
+          <section id="special" className="flex flex-col items-start bg-black text-white h-lvh w-10/12 p-8 gap-y-4 z-10 fixed hidden">
+            <button onClick={hideMenu}>x</button>
+            <hr />
+            <a href="/"><h3>Inicio</h3></a>
+            <a href="/Produto"><h3>Produto</h3></a>
+            <a href="/Materiais"><h3>Materiais</h3></a>
+            <a href="/Referencias"><h3>Referências</h3></a>
+            <a href="/Sobre"><h3>Sobre nós</h3></a>
+          </section>    
+        </div>
+
         <div className="w-full fixed bg-black flex justify-center items-center mb-24">
             <a href=""><img src="/logo-site.jpg" alt="Imagem de um boi feito por listras" className="w-20"/></a>
         </div>
 
-        <button><img src="/Menu.svg" alt="ícone de menu" className="fixed ms-5" /></button>
+        <button onClick={showMenu}><img src="/Menu.svg" alt="ícone de menu" className="fixed ms-5" /></button>
 
         <div className="pt-14 mb-"></div>
 
-        <section className="bg-gray text-white px-20">
+        <section className="bg-gray text-white px-20 flex flex-col gap-4 pb-8 text-xl">
             <div className="flex flex-col justify-center items-center">
                 <h2 className="font-medium text-3xl my-6">Arduino mega</h2>
 
@@ -112,4 +124,12 @@ export default function Materiais() {
         </section>
     </section>
   )
+}
+
+function showMenu() {
+    document.getElementById('special').classList.remove("hidden")
+}
+
+function hideMenu() {
+    document.getElementById('special').classList.add("hidden")
 }
