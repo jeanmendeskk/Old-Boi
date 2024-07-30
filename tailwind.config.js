@@ -11,11 +11,13 @@ export default {
       'white': '#fff',
       'green': '#127E00',
       'blue': '#003F79',
-      'offwhite': '#D9D9D9'
+      'offwhite': '#D9D9D9',
+      'textg': '#A9A9A9'
     },
     fontFamily: {
       'porter': 'Porter Sans Block',
-      'sans': 'Open Sans'
+      'sans': 'Open Sans',
+      'osw': 'Oswald'
     }
   },
   plugins: [],
