@@ -14,7 +14,7 @@ export default function Materiais() {
         </div>
 
         <div className="w-full fixed bg-black flex justify-center items-center mb-24">
-            <a href=""><img src="/logo-site.jpg" alt="Imagem de um boi feito por listras" className="w-20"/></a>
+            <a href="/"><img src="/logo-site.jpg" alt="Imagem de um boi feito por listras" className="w-20"/></a>
         </div>
 
         <button onClick={showMenu}><img src="/Menu.svg" alt="ícone de menu" className="fixed ms-5" /></button>
