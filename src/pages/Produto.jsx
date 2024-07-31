@@ -41,7 +41,7 @@ export default function Produto() {
 
             <p className="font-light text-xl text-justify pb-7 lg:px-48 2xl:text-3xl 2xl:px-64 2xl:my-4">Ao comprar uma peça de carne, você pode temperar a carne com sal ou temperos em pó, não é recomendado o uso de líquidos como o limão, e após isso, você coloca a carne dentro da estufa, e fecha a porta, garantindo em deixar bem fechado, e no fim, ligar a estufa e esperar. Você pode monitorar o processo pelo aplicativo disponível no Link abaixo. </p>
 
-            <button className="bg-blue text-white py-5 rounded-xl lg:mb-0 lg:w-60 2xl:text-3xl 2xl:w-80 2xl:h-24 2xl:mb-4"><a href="">Baixe aqui!</a></button>
+            <button className="bg-blue text-white py-5 rounded-xl lg:mb-0 lg:w-60 2xl:text-3xl 2xl:w-80 2xl:h-24 2xl:mb-1"><a href="">Baixe aqui!</a></button>
         </div>
 
         <div className="bg-gray text-white p-10 text-center text-lg">
