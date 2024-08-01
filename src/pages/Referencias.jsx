@@ -14,7 +14,7 @@ export default function Referencias() {
         </div>
         
         <div className="w-full fixed bg-black flex justify-center items-center mb-24 lg:ps-1 gap-28 py-1 2xl:h-28">
-            <a href="/"><img src="/logo-site.jpg" alt="Imagem de um boi feito por listras" className="w-20"/></a>
+            <a href="/"><img src="/logo-site.jpg" alt="Imagem de um boi feito por listras" className="w-20 2xl:w-28"/></a>
             <div className="max-lg:hidden flex gap-28 font-osw uppercase font-normal 2xl:text-2xl">
                 <a href="/"><p className="text-white">Início</p></a>
 
