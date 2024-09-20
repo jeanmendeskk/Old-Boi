@@ -40,7 +40,7 @@ export default function Materiais() {
   
                   <h3 className="font-normal pt-3 pb-2 2xl:text-2xl">R$100-150,00.</h3>
   
-                  <p className="font-light text-justify 2xl:text-2xl">Uma placa arduíno em tamanho maior, para suportar mais componentes.</p>
+                  <p className="font-light text-center 2xl:text-2xl">Uma placa arduíno em tamanho maior, para suportar mais componentes.</p>
   
                   <p className="max-lg:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
                   <p className="max-2xl:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
@@ -53,7 +53,7 @@ export default function Materiais() {
   
                   <h3 className="font-normal pt-3 pb-2 2xl:text-2xl">R$20-30,00.</h3>
   
-                  <p className="font-light text-justify 2xl:text-2xl">Um sensor avançado que é capaz de medir a temperatura e umidade relativa do ar.</p>
+                  <p className="font-light text-center 2xl:text-2xl">Um sensor avançado que é capaz de medir a temperatura e umidade relativa do ar.</p>
   
                   <p className="max-lg:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
                   <p className="max-2xl:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
@@ -66,7 +66,7 @@ export default function Materiais() {
   
                   <h3 className="font-normal pt-3 pb-2 2xl:text-2xl">R$10-30,00.</h3>
   
-                  <p className="font-light text-justify 2xl:text-2xl">Um dispositivo umidificador que utiliza como fonte o USB para umidificar o ar.</p>
+                  <p className="font-light text-center 2xl:text-2xl">Um dispositivo umidificador que utiliza como fonte o USB para umidificar o ar.</p>
   
                   <p className="max-2xl:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
                   <p className="max-2xl:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
@@ -79,7 +79,7 @@ export default function Materiais() {
   
                   <h3 className="font-normal pt-3 pb-2 2xl:text-2xl">R$20-40,00.</h3>
   
-                  <p className="font-light text-justify 2xl:text-2xl">Um módulo que permite que você conecte componentes arduino ao sistema elétrico.</p>
+                  <p className="font-light text-center 2xl:text-2xl">Um módulo que permite que você conecte componentes arduino ao sistema elétrico.</p>
   
                   <p className="sm:hidden lg:flex xl:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
                   <p className="max-2xl:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
@@ -92,7 +92,7 @@ export default function Materiais() {
   
                   <h3 className="font-normal pt-3 pb-2 2xl:text-2xl">R$30-80,00.</h3>
   
-                  <p className="font-light text-justify 2xl:text-2xl">Um módulo feito para controlar  a temperatura de onde for colocado, geralmente esfriando.</p>
+                  <p className="font-light text-center 2xl:text-2xl">Um módulo feito para controlar  a temperatura de onde for colocado, geralmente esfriando.</p>
   
                   <p className="max-lg:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
               </div>
@@ -104,7 +104,7 @@ export default function Materiais() {
   
                   <h3 className="font-normal pt-3 pb-2 2xl:text-2xl">R$5-20,00.</h3>
   
-                  <p className="font-light text-justify 2xl:text-2xl">Lâmpada incandescente, com função similar ao Peltier, porém, com objetivo de esquentar.</p>
+                  <p className="font-light text-center 2xl:text-2xl">Lâmpada incandescente, com função similar ao Peltier, porém, com objetivo de esquentar.</p>
   
                   <p className="max-lg:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
               </div>
@@ -116,7 +116,7 @@ export default function Materiais() {
   
                   <h3 className="font-normal pt-3 pb-2 2xl:text-2xl">R$20-30,00.</h3>
   
-                  <p className="font-light text-justify 2xl:text-2xl">Ventoinha para arduino, utilizado no projeto para controlar a circulação de ar da estufa dry ager.</p>
+                  <p className="font-light text-center 2xl:text-2xl">Ventoinha para arduino, utilizado no projeto para controlar a circulação de ar da estufa dry ager.</p>
   
                   <p className="max-lg:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
               </div>
@@ -128,7 +128,7 @@ export default function Materiais() {
   
                   <h3 className="font-normal pt-3 pb-2 2xl:text-2xl">R$200-300,00.</h3>
   
-                  <p className="font-light text-justify 2xl:text-2xl">Um tipo de compensado, o naval, usado para fazer navios, sendo durável e resistente a umidade.</p>
+                  <p className="font-light text-center 2xl:text-2xl">Um tipo de compensado, o naval, usado para fazer navios, sendo durável e resistente a umidade.</p>
                   <p className="max-2xl:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
               </div>
   
@@ -139,7 +139,7 @@ export default function Materiais() {
   
                   <h3 className="font-normal pt-3 pb-2 2xl:text-2xl">R$25-40,00.</h3>
   
-                  <p className="font-light text-justify 2xl:text-2xl">Foi utilizado um tipo de isopor mais resistente para servir como um isolante térmico.</p>
+                  <p className="font-light text-center 2xl:text-2xl">Foi utilizado um tipo de isopor mais resistente para servir como um isolante térmico.</p>
   
                   <p className="sm:hidden lg:flex xl:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
                   <p className="max-2xl:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
@@ -153,7 +153,7 @@ export default function Materiais() {
   
                   <h3 className="font-normal pt-3 pb-2 2xl:text-2xl">R$30-50,00.</h3>
   
-                  <p className="font-light text-justify 2xl:text-2xl">Uma placa de alumínio, sendo utilizado junto com o isopor como isolante térmico.</p>
+                  <p className="font-light text-center 2xl:text-2xl">Uma placa de alumínio, sendo utilizado junto com o isopor como isolante térmico.</p>
                   <p className="max-2xl:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
                   <p className="max-2xl:hidden">⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
               </div>
