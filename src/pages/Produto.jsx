@@ -50,7 +50,7 @@ export default function Produto() {
             <p className="font-light text-xl text-justify lg:px-48 2xl:text-3xl 2xl:px-64 2xl:mb-6">Para que o processo de maturação ocorra, é necessário que condições específicas sejam cumpridas, a primeira é a temperatura, sendo necessário manter a carne entre 0 e 4 graus Celsius, a segunda é a circulação do ar, que deve se manter controlada, em um baixo fluxo, a terceira é a umidade do ar, que deve estar de baixa para média, a estufa deve ser isolada do exterior por dentro, para evitar a proliferação de bactérias, e por fim, deve haver um sistema de drenagem, pois a carne solta líquidos durante o processo. </p>
 
             <div className="w-8/12 h-screen mt-6 max-sm:h-40 max-sm:w-72">
-                <iframe src="https://www.youtube.com/embed/wEDWouON488" frameborder="0" allowFullScreen     className="w-full h-full"></iframe>
+                <iframe src="https://www.youtube.com/embed/XRlrVfvWBO8" frameborder="0" allowFullScreen     className="w-full h-full"></iframe>
             </div>
 
             <h2 className="font-semibold text-3xl pb-3 2xl:text-5xl 2xl:mb-6 mt-12">Bônus:</h2>
