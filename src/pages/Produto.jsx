@@ -44,10 +44,22 @@ export default function Produto() {
             <button className="bg-blue text-white py-5 rounded-xl lg:mb-0 lg:w-60 2xl:text-3xl 2xl:w-80 2xl:h-24 2xl:mb-1"><a href="">Baixe aqui!</a></button>
         </div>
 
-        <div className="bg-gray text-white p-10 text-center text-lg">
+        <div className="bg-gray text-white p-10 text-center text-lg flex flex-col items-center">
             <h2 className="font-semibold text-3xl pb-6 2xl:text-5xl 2xl:mb-4">Funcionamento</h2>
 
             <p className="font-light text-xl text-justify lg:px-48 2xl:text-3xl 2xl:px-64 2xl:mb-6">Para que o processo de maturação ocorra, é necessário que condições específicas sejam cumpridas, a primeira é a temperatura, sendo necessário manter a carne entre 0 e 4 graus Celsius, a segunda é a circulação do ar, que deve se manter controlada, em um baixo fluxo, a terceira é a umidade do ar, que deve estar de baixa para média, a estufa deve ser isolada do exterior por dentro, para evitar a proliferação de bactérias, e por fim, deve haver um sistema de drenagem, pois a carne solta líquidos durante o processo. </p>
+
+            <div className="w-8/12 h-screen mt-6 max-sm:h-40 max-sm:w-72">
+                <iframe src="https://www.youtube.com/embed/0VbAJimAIUA" frameborder="0" allowFullScreen     className="w-full h-full"></iframe>
+            </div>
+
+            <h2 className="font-semibold text-3xl pb-3 2xl:text-5xl 2xl:mb-6 mt-12">Bônus:</h2>
+
+            <p className="font-light text-xl text-justify lg:px-48 2xl:text-3xl 2xl:px-64 2xl:mb-8">Se você se interessou pelo projeto, veja também nosso jogo!</p>
+
+            <div className="w-8/12 h-screen mt-6 max-sm:h-40 max-sm:w-72 mb-10 max-sm:mb-4">
+                <iframe src="https://www.youtube.com/embed/0VbAJimAIUA" frameborder="0" allowFullScreen className="w-full h-full"></iframe>
+            </div>
         </div>
     </section>
   )
