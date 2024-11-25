@@ -53,6 +53,10 @@ export default function Produto() {
                 <iframe src="https://www.youtube.com/embed/XRlrVfvWBO8" frameborder="0" allowFullScreen     className="w-full h-full"></iframe>
             </div>
 
+            <div className="w-8/12 h-screen mt-6 max-sm:h-40 max-sm:w-72">
+                <iframe src="https://www.youtube.com/embed/P2iSZ0cLeYk" frameborder="0" allowFullScreen     className="w-full h-full"></iframe>
+            </div>
+
             <h2 className="font-semibold text-3xl pb-3 2xl:text-5xl 2xl:mb-6 mt-12">Bônus:</h2>
 
             <p className="font-light text-xl text-justify lg:px-48 2xl:text-3xl 2xl:px-64 2xl:mb-8">Se você se interessou pelo projeto, veja também nosso jogo!</p>
